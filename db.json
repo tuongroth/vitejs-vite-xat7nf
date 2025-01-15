@@ -1,0 +1,67 @@
+{
+  "patients": [
+    {
+      "id": "1",
+      "name": "John Doe",
+      "ssn": "123-45-6789",
+      "occupation": "Software Developer",
+      "gender": "male",
+      "dateOfBirth": "1990-01-01",
+      "entries": [
+        {
+          "id": "1",
+          "date": "2023-01-10",
+          "description": "Annual physical exam",
+          "diagnosisCodes": ["Z00.00"]
+        },
+        {
+          "id": "2",
+          "date": "2023-03-15",
+          "description": "Follow-up visit for hypertension",
+          "diagnosisCodes": ["I10"]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Jane Smith",
+      "ssn": "987-65-4321",
+      "occupation": "Nurse",
+      "gender": "female",
+      "dateOfBirth": "1985-05-05",
+      "entries": [
+        {
+          "id": "1",
+          "date": "2023-02-20",
+          "description": "Consultation for back pain",
+          "diagnosisCodes": ["M54.5"]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Emily Johnson",
+      "ssn": "555-12-3456",
+      "occupation": "Doctor",
+      "gender": "female",
+      "dateOfBirth": "1982-08-15",
+      "entries": []
+    },
+    {
+      "id": "4",
+      "name": "Michael Brown",
+      "ssn": "123-98-7654",
+      "occupation": "Teacher",
+      "gender": "male",
+      "dateOfBirth": "1978-11-30",
+      "entries": [
+        {
+          "id": "1",
+          "date": "2023-03-01",
+          "description": "Check-up for diabetes",
+          "diagnosisCodes": ["E11"]
+        }
+      ]
+    }
+  ]
+}
